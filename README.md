@@ -450,7 +450,11 @@ MAUSAM works by combining **user context, weather information, and personalizati
    ├──  Journey / Weather Ahead
    └──  Why Am I Seeing This?
 ```
+---
 
+## 🎯✨ Project at a Glance
+
+![Project Screenshot](./Image.jpeg)
 ---
 
 ## User Flow
