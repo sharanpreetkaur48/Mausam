@@ -11,6 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Smart%20India%20Hackathon-2026-orange?style=for-the-badge" alt="SIH 2026"/>
   <img src="https://img.shields.io/badge/Problem%20Statement-26076-blue?style=for-the-badge" alt="PS 26076"/>
+  <img src="https://img.shields.io/badge/Team%20Name-Wannabe engineers-green?style=for-the-badge" alt="Team MAUSAM"/>
   <!-- <img src="https://img.shields.io/badge/Frontend-Prototype-green?style=for-the-badge" alt="Frontend Prototype"/>
   <img src="https://img.shields.io/badge/React-TypeScript-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React TypeScript"/>
   <img src="https://img.shields.io/badge/Vite-Frontend-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/> -->
@@ -36,16 +37,10 @@
   - [Ground Reality](#9-ground-reality)
 - [How MAUSAM Works](#-how-mausam-works)
 - [User Flow](#-user-flow)
-- [System Architecture](#-system-architecture)
-- [Personalization Engine](#-personalization-engine)
-- [AI/ML Role](#-aiml-role)
 - [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
 - [Current Implementation Status](#-current-implementation-status)
 - [Screenshots](#-screenshots)
-- [Getting Started](#-getting-started)
 - [Future Development](#-future-development)
-- [SIH 2026](#-sih-2026)
 - [Team](#-team)
 
 ---
@@ -639,3 +634,14 @@ For example:
 > 💡 **The user does not need to manually search through multiple weather services. MAUSAM automatically brings the most relevant weather information forward based on the user's current context.**
 
 ---
+
+## Team
+
+| S.No | Team Member | Branch |
+|---|---|---|
+| 1 | **Sushant kumar Mishra** | AI/ML |
+| 2 | **Surbhi Sharma** | IoT |
+| 3 | **Riya** | AI/ML |
+| 4 | **vipul Sethi** | AI/ML |
+| 5 | **Neeraj Kumar** | AI/ML |
+| 6 | **Sharanpreet Kaur** | CSE |
