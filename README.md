@@ -92,14 +92,14 @@ The **Mausam** mobile application should provide a personalized homepage that hi
 
 | User Type | Information to Highlight |
 |---|---|
-| ❤️ **Health-conscious users** | AQI, pollen count, UV index, humidity levels to help manage allergies, asthma, or skin sensitivity. |
-| 🏃 **Outdoor fitness enthusiasts** | Sunrise/sunset times, “best running hours”, wind speed, and heat alerts for workout planning. |
-| 🏖️ **Beachgoers & surfers** | Sea conditions, tide timings, wave height, and water temperature for safe and enjoyable beach activities. |
-| ✈️ **Travelers** | Saved destinations, severe weather alerts for flights, and packing suggestions such as “Carry a raincoat in London”. |
-| 👨‍👩‍👧 **Parents & families** | School commute conditions, rain alerts, and severe weather warnings to plan daily routines. |
-| 🌾 **Agriculture & gardeners** | Soil moisture, rainfall predictions, frost alerts, and seasonal planting guidance. |
-| 🚗 **Commuters** | Weather with traffic updates, visibility conditions, and alerts for storms or fog that may affect travel. |
-| 🎪 **Event planners** | Extended forecasts, probability of rain, and “comfort index” for outdoor gatherings and weddings. |
+|  **Health-conscious users** | AQI, pollen count, UV index, humidity levels to help manage allergies, asthma, or skin sensitivity. |
+|  **Outdoor fitness enthusiasts** | Sunrise/sunset times, “best running hours”, wind speed, and heat alerts for workout planning. |
+|  **Beachgoers & surfers** | Sea conditions, tide timings, wave height, and water temperature for safe and enjoyable beach activities. |
+|  **Travelers** | Saved destinations, severe weather alerts for flights, and packing suggestions such as “Carry a raincoat in London”. |
+|  **Parents & families** | School commute conditions, rain alerts, and severe weather warnings to plan daily routines. |
+|  **Agriculture & gardeners** | Soil moisture, rainfall predictions, frost alerts, and seasonal planting guidance. |
+|  **Commuters** | Weather with traffic updates, visibility conditions, and alerts for storms or fog that may affect travel. |
+|  **Event planners** | Extended forecasts, probability of rain, and “comfort index” for outdoor gatherings and weddings. |
 
 ### 📌 Problem Statement Details
 
@@ -126,21 +126,21 @@ Instead of showing every user the same weather information, MAUSAM intelligently
 MAUSAM considers multiple factors before deciding what should be highlighted on the user's homepage:
 
 ```text
-        👤 User Persona
+         User Persona
               +
-        📍 Location
+         Location
               +
-          🕐 Time
+           Time
               +
-        🌦️ Weather
+         Weather
               +
-        ⚠️ Severity
+         Severity
               +
-       ❤️ Preferences
+        Preferences
               +
-       📌 Saved Places
+        Saved Places
               +
-       🚨 Weather Warnings
+        Weather Warnings
               │
               ▼
     ┌──────────────────────┐
@@ -194,36 +194,36 @@ MAUSAM aims to answer the next and more important question:
 
 ### 🧠 **Why MAUSAM Is Different**
 
-- **👤 Personal**
+- ** Personal**
   - Information is organized around the **user's needs and interests**.
 
-- **📍 Context-Aware**
+- ** Context-Aware**
   - Personalization considers **location, time, weather conditions, severity and saved places**.
 
-- **🎯 Relevant**
+- ** Relevant**
   - Instead of giving equal importance to every weather parameter, MAUSAM **prioritizes what matters most**.
 
-- **🚨 Safety-First**
+- ** Safety-First**
   - **Critical official weather warnings remain visible**, regardless of the user's persona.
 
-- **🔎 Explainable**
+- ** Explainable**
   - Users can understand **why a particular insight or recommendation is being shown**.
 
-- **💡 Action-Oriented**
+- ** Action-Oriented**
   - Weather information is presented with the goal of helping users **understand and make decisions**, rather than simply viewing weather data.
 
 ### 🔄 **From Weather Data to Personal Weather Intelligence**
 
 ```text
-        🌦️ Weather Data
+         Weather Data
                ↓
-       👤 User Context
+        User Context
                ↓
-       🧠 Personalization
+        Personalization
                ↓
-       🎯 Relevant Information
+        Relevant Information
                ↓
-       💡 Actionable Insight
+        Actionable Insight
 ```
 ---
 ## Key Features
@@ -232,12 +232,12 @@ MAUSAM aims to answer the next and more important question:
 
 The homepage dynamically organizes weather information according to the **user's needs, preferences and current context**.
 
-- 👤 User-specific information
-- 📍 Location-aware content
-- 🕐 Time-aware recommendations
-- 🌦️ Weather-based prioritization
-- 🚨 Relevant alerts and warnings
-- 📌 Support for saved locations
+-  User-specific information
+-  Location-aware content
+-  Time-aware recommendations
+-  Weather-based prioritization
+-  Relevant alerts and warnings
+-  Support for saved locations
 
 > **One weather system. Different information priorities for different users.**
 
@@ -249,14 +249,14 @@ MAUSAM allows users to select the type of weather information that is most relev
 
 Supported personas include:
 
-- ❤️ **Health-conscious User**
-- 🏃 **Outdoor Fitness Enthusiast**
-- 🏖️ **Beachgoer / Surfer**
-- ✈️ **Traveller**
-- 👨‍👩‍👧 **Parent / Family**
-- 🌾 **Farmer / Gardener**
-- 🚗 **Commuter**
-- 🎪 **Event Planner**
+-  **Health-conscious User**
+-  **Outdoor Fitness Enthusiast**
+-  **Beachgoer / Surfer**
+-  **Traveller**
+-  **Parent / Family**
+-  **Farmer / Gardener**
+-  **Commuter**
+-  **Event Planner**
 
 The selected persona becomes one of the inputs used to **personalize the homepage experience**.
 
@@ -268,14 +268,14 @@ MAUSAM goes beyond a fixed user persona.
 
 Personalization considers:
 
-- 👤 **Persona**
-- 📍 **Location**
-- 🕐 **Time**
-- 🌦️ **Weather Conditions**
-- ⚠️ **Severity**
-- ❤️ **Preferences**
-- 📌 **Saved Locations**
-- 🚨 **Active Warnings**
+-  **Persona**
+-  **Location**
+-  **Time**
+-  **Weather Conditions**
+-  **Severity**
+-  **Preferences**
+-  **Saved Locations**
+-  **Active Warnings**
 
 This allows the homepage to **adapt according to the user's current situation**.
 
@@ -307,18 +307,18 @@ Personalization should never compromise **safety**.
 
 Critical official weather warnings receive **higher priority than personalized content**.
 
-- 🚨 **Severe weather warnings** remain visible
-- ⚠️ **Safety-critical information** cannot be hidden by personalization
-- 🎯 **Personalized information** is prioritized only after safety requirements are satisfied
+-  **Severe weather warnings** remain visible
+-  **Safety-critical information** cannot be hidden by personalization
+-  **Personalized information** is prioritized only after safety requirements are satisfied
 
 ```text
-        🚨 Official Warning
+         Official Warning
                 ↓
-        🛡️ Safety Override
+         Safety Override
                 ↓
       Always Visible to User
                 ↓
-    🎯 Personalized Content
+     Personalized Content
 ```
 ---
 
@@ -330,13 +330,13 @@ Users can understand why a particular card, insight, or recommendation appears o
 
 Possible reasons include:
 
-- 👤 Your selected persona
-- 📍 Your current location
-- 🌦️ Current weather conditions
-- 🕐 Time of day
-- ⚠️ Weather severity
-- 📌 Saved destination
-- 🚨 Active warning
+-  Your selected persona
+-  Your current location
+-  Current weather conditions
+-  Time of day
+-  Weather severity
+-  Saved destination
+-  Active warning
 
 > 💡 Personalization should not feel like a black box.
 
@@ -356,13 +356,13 @@ MAUSAM can provide:
 
 Alerts can be relevant to:
 
-- 🚗 Commute
-- ✈️ Travel
-- 🏃 Fitness
-- 👨‍👩‍👧 School / Family
-- 🎪 Outdoor Events
-- 🌾 Agriculture
-- 🚨 Severe Weather
+-  Commute
+-  Travel
+-  Fitness
+-  School / Family
+-  Outdoor Events
+-  Agriculture
+-  Severe Weather
 
 ---
 
@@ -372,11 +372,11 @@ The weather map acts as a supporting visualization layer for exploring weather c
 
 Users can:
 
-- 📍 Explore different locations
-- 🌦️ View weather conditions
-- 🕐 Interact with weather time information
-- 🔍 Explore weather events
-- 📌 Understand location-based conditions
+-  Explore different locations
+-  View weather conditions
+-  Interact with weather time information
+-  Explore weather events
+-  Understand location-based conditions
 
 > 💡 The map supports the personalized experience; it is not the core innovation of MAUSAM.
 
@@ -388,18 +388,18 @@ Ground Reality provides a complementary layer for local, user-reported weather o
 
 Users can contribute:
 
-- 📷 Photos
-- 🎥 Videos
-- 📝 Local observations
-- 📍 Location
-- 🕐 Time of observation
+-  Photos
+-  Videos
+-  Local observations
+-  Location
+-  Time of observation
 
 The system can help distinguish between:
 
-- 🏛️ Official weather information
-- 👥 Citizen reports
-- ⚠️ Unverified observations
-- ✅ Trusted / verified information
+-  Official weather information
+-  Citizen reports
+-  Unverified observations
+-  Trusted / verified information
 
 > 💡 Ground Reality complements official weather data rather than replacing it.
 
@@ -426,13 +426,13 @@ MAUSAM works by combining **user context, weather information, and personalizati
    ▼
 🧠 Context Analysis
    │
-   ├── 👤 Persona
-   ├── 📍 Location
-   ├── 🕐 Time
-   ├── 🌦️ Weather Conditions
-   ├── ⚠️ Severity
-   ├── ❤️ Preferences
-   └── 🚨 Active Warnings
+   ├──  Persona
+   ├──  Location
+   ├──  Time
+   ├──  Weather Conditions
+   ├──  Severity
+   ├──  Preferences
+   └──  Active Warnings
    │
    ▼
 🎯 Personalization Engine
@@ -446,12 +446,12 @@ MAUSAM works by combining **user context, weather information, and personalizati
    ▼
 🏠 Personalized MAUSAM Homepage
    │
-   ├── 🔔 Intelligent Alerts
-   ├── 💡 Weather Insights
-   ├── 🗺️ Weather Map
-   ├── 📍 Ground Reality
-   ├── 🧳 Journey / Weather Ahead
-   └── 🔎 Why Am I Seeing This?
+   ├──  Intelligent Alerts
+   ├──  Weather Insights
+   ├──  Weather Map
+   ├──  Ground Reality
+   ├──  Journey / Weather Ahead
+   └──  Why Am I Seeing This?
 ```
 
 ---
@@ -513,9 +513,9 @@ The MAUSAM user flow is designed to take the user from **initial onboarding to a
 
 The user starts the MAUSAM experience and is introduced to the personalized weather concept.
 
-- 👋 Welcome screen
-- 📖 Basic onboarding
-- 🌦️ Introduction to personalized weather information
+-  Welcome screen
+-  Basic onboarding
+-  Introduction to personalized weather information
 
 ---
 
@@ -525,14 +525,14 @@ The user selects the persona that best represents their needs.
 
 Examples:
 
-- ❤️ **Health-conscious**
-- 🏃 **Fitness enthusiast**
-- ✈️ **Traveller**
-- 🌾 **Farmer / Gardener**
-- 🚗 **Commuter**
-- 👨‍👩‍👧 **Parent / Family**
-- 🏖️ **Beachgoer / Surfer**
-- 🎪 **Event Planner**
+-  **Health-conscious**
+-  **Fitness enthusiast**
+-  **Traveller**
+-  **Farmer / Gardener**
+-  **Commuter**
+-  **Parent / Family**
+-  **Beachgoer / Surfer**
+-  **Event Planner**
 
 ---
 
@@ -548,10 +548,10 @@ This helps MAUSAM understand the user's **information preferences**.
 
 The user provides their relevant location.
 
-- 📍 Current location
-- 🏠 Home
-- 📌 Other saved locations
-- ✈️ Travel destinations
+-  Current location
+-  Home
+-  Other saved locations
+-  Travel destinations
 
 ---
 
@@ -577,12 +577,12 @@ Instead of presenting every piece of information equally, the homepage prioritiz
 
 The homepage can contain:
 
-- 🌡️ Current weather
-- 🎯 Personalized insights
-- 🔔 Relevant alerts
-- 📊 Forecasts
-- 📌 Saved locations
-- 💡 Contextual advisories
+-  Current weather
+-  Personalized insights
+-  Relevant alerts
+-  Forecasts
+-  Saved locations
+-  Contextual advisories
 
 ---
 
@@ -590,11 +590,11 @@ The homepage can contain:
 
 From the homepage, users can access additional weather experiences.
 
-- 🗺️ **Weather Map**
-- 🧳 **Journey / Weather Ahead**
-- 🔔 **Alerts**
-- 📍 **Ground Reality**
-- 🤖 **Ask MAUSAM**
+-  **Weather Map**
+-  **Journey / Weather Ahead**
+-  **Alerts**
+-  **Ground Reality**
+-  **Ask MAUSAM**
 
 These features provide deeper information when the user needs it.
 
@@ -617,19 +617,19 @@ The experience can change as the user's context changes.
 For example:
 
 ```text
-📍 Location Changes
+ Location Changes
        +
-🕐 Time Changes
+ Time Changes
        +
-🌦️ Weather Changes
+ Weather Changes
        +
-⚠️ Severity Changes
+ Severity Changes
        ↓
-🧠 Recalculate Relevance
+ Recalculate Relevance
        ↓
-🎯 Update Information Priority
+ Update Information Priority
        ↓
-🏠 Adapted Homepage
+ Adapted Homepage
 ```
 > 💡 **The user does not need to manually search through multiple weather services. MAUSAM automatically brings the most relevant weather information forward based on the user's current context.**
 
@@ -637,11 +637,11 @@ For example:
 
 ## Team
 
-| S.No | Team Member | Branch |
+| S.No | Team Member | LinkedIn |
 |---|---|---|
-| 1 | **Sushant kumar Mishra** | AI/ML |
-| 2 | **Surbhi Sharma** | IoT |
-| 3 | **Riya** | AI/ML |
-| 4 | **vipul Sethi** | AI/ML |
-| 5 | **Neeraj Kumar** | AI/ML |
-| 6 | **Sharanpreet Kaur** | CSE |
+| 1 | **Sushant kumar Mishra** | [LinkedIn](https://www.linkedin.com/in/mishragisonline) |
+| 2 | **Surbhi Sharma** | [LinkedIn](https://www.linkedin.com/in/surbhi-sharma-tech)aa |
+| 3 | **Riya** | [LinkedIn](https://www.linkedin.com/in/riya-bansal-a1731a37a) |
+| 4 | **vipul Sethi** | [LinkedIn](https://www.linkedin.com/in/vipul-sethi-b1508937a) |
+| 5 | **Neeraj Kumar** | [LinkedIn](www.linkedin.com/in/neerajkumarlearner) |
+| 6 | **Sharanpreet Kaur** | [LinkedIn](https://www.linkedin.com/in/sharanpreet-kaur-1a00a037a) |
