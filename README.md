@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Smart%20India%20Hackathon-2026-orange?style=for-the-badge" alt="SIH 2026"/>
   <img src="https://img.shields.io/badge/Problem%20Statement-26076-blue?style=for-the-badge" alt="PS 26076"/>
-  <img src="https://img.shields.io/badge/Team%20Name-Wannabe engineers-green?style=for-the-badge" alt="Team MAUSAM"/>
+  <img src="https://img.shields.io/badge/Team%20Name-Wanna b engineers-green?style=for-the-badge" alt="Team MAUSAM"/>
   <!-- <img src="https://img.shields.io/badge/Frontend-Prototype-green?style=for-the-badge" alt="Frontend Prototype"/>
   <img src="https://img.shields.io/badge/React-TypeScript-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React TypeScript"/>
   <img src="https://img.shields.io/badge/Vite-Frontend-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/> -->
@@ -38,9 +38,6 @@
 - [How MAUSAM Works](#-how-mausam-works)
 - [User Flow](#-user-flow)
 - [Tech Stack](#-tech-stack)
-- [Current Implementation Status](#-current-implementation-status)
-- [Screenshots](#-screenshots)
-- [Future Development](#-future-development)
 - [Team](#-team)
 
 ---
@@ -635,6 +632,26 @@ For example:
 
 ---
 
+## Tech Stack
+
+| Technology | Type | Connection |
+|---|---|---|
+| <img src="https://cdn.simpleicons.org/react/61DAFB" width="22"/> **React** | Frontend Framework | → Backend |
+| <img src="https://cdn.simpleicons.org/flutter/02569B" width="22"/> **Flutter** | Frontend Framework | → Backend |
+| <img src="https://cdn.simpleicons.org/nodedotjs/339933" width="22"/> **Node.js** | Backend Runtime | → Database / APIs / AI |
+| <img src="https://cdn.simpleicons.org/fastapi/009688" width="22"/> **FastAPI** | Backend Framework | → Database / APIs / AI |
+| <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="22"/> **PostgreSQL** | Database | ← Backend |
+| **PostGIS** | Spatial Database Extension | ← PostgreSQL |
+| **GPS** | Location Technology | → Maps & Location |
+| **Google Maps API** | Maps & Location | ← GPS / Backend |
+| **Open-Source Maps** | Maps & Location | ← GPS |
+| **Cloud Storage** | Storage | ← Backend |
+| **FCM** | Notifications | ← Backend |
+| **Web Push** | Notifications | ← Backend |
+| **AI/ML Models** | Assistive AI | ← Backend + Weather Data |
+
+---
+
 ## Team
 
 | S.No | Team Member | LinkedIn |
@@ -643,5 +660,19 @@ For example:
 | 2 | **Surbhi Sharma** | [LinkedIn](https://www.linkedin.com/in/surbhi-sharma-tech) |
 | 3 | **Riya** | [LinkedIn](https://www.linkedin.com/in/riya-bansal-a1731a37a) |
 | 4 | **vipul Sethi** | [LinkedIn](https://www.linkedin.com/in/vipul-sethi-b1508937a) |
-| 5 | **Neeraj Kumar** | [LinkedIn](www.linkedin.com/in/neerajkumarlearner) |
+| 5 | **Neeraj Kumar** | [LinkedIn]([www.linkedin.com/in/neerajkumarlearner](https://www.linkedin.com/in/neerajkumarlearner/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1lAwVieSTJKhc8eyVmmWMQ%3D%3D)) |
 | 6 | **Sharanpreet Kaur** | [LinkedIn](https://www.linkedin.com/in/sharanpreet-kaur-1a00a037a) |
+
+---
+
+## Thank You
+
+Thank you for exploring **MAUSAM — AI-Powered Personalized Weather Intelligence**.
+
+> **Weather is universal. Its impact is personal.**
+
+Built with the vision of making weather information **more relevant, understandable, and actionable for every user.**
+
+**Smart India Hackathon 2026 · PS 26076**
+
+---
