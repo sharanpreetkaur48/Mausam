@@ -640,7 +640,7 @@ For example:
 | S.No | Team Member | LinkedIn |
 |---|---|---|
 | 1 | **Sushant kumar Mishra** | [LinkedIn](https://www.linkedin.com/in/mishragisonline) |
-| 2 | **Surbhi Sharma** | [LinkedIn](https://www.linkedin.com/in/surbhi-sharma-tech)aa |
+| 2 | **Surbhi Sharma** | [LinkedIn](https://www.linkedin.com/in/surbhi-sharma-tech) |
 | 3 | **Riya** | [LinkedIn](https://www.linkedin.com/in/riya-bansal-a1731a37a) |
 | 4 | **vipul Sethi** | [LinkedIn](https://www.linkedin.com/in/vipul-sethi-b1508937a) |
 | 5 | **Neeraj Kumar** | [LinkedIn](www.linkedin.com/in/neerajkumarlearner) |
