@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #174A70;
+    --color-sky: #4C9ED9;
+    --color-bg: #EEF6FA;
+    --color-card: #FFFFFF;
+    --color-mint: #DDEFE7;
+    --color-sand: #F4EBDD;
+    --color-sun: #F4C95D;
+    --color-coral: #E77C6E;
+    --color-alert: #C94343;
+    --color-text-main: #193247;
+    --color-text-muted: #607789;
+  }
+
+  body {
+    background-color: #EEF6FA;
+    color: #193247;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
+
+/* Hide scrollbar for clean horizontal tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes radarSweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.4);
+  }
+}
+
+@keyframes waveMotion {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.9);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
+@keyframes rainFall {
+  0% {
+    transform: translate(0px, -40px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(-30px, 80px);
+    opacity: 0;
+  }
+}
+
+@keyframes windDrift {
+  0% {
+    stroke-dashoffset: 120;
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0.1;
+  }
+}
+
+@keyframes zapFlicker {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(0.95);
+  }
+  10%, 14% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  16%, 60% {
+    opacity: 0.2;
+    transform: scale(0.95);
+  }
+  62%, 66% {
+    opacity: 0.9;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes travelAlongRoute {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+.animate-radar {
+  animation: radarSweep 7s linear infinite;
+  transform-origin: center center;
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-wave {
+  animation: waveMotion 12s ease-in-out infinite alternate;
+}
+
+.animate-rain {
+  animation: rainFall 1.2s linear infinite;
+}
+
+.animate-wind {
+  animation: windDrift 3s linear infinite;
+}
+
+.animate-zap {
+  animation: zapFlicker 3.5s ease-in-out infinite;
+}

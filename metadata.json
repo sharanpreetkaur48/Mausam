@@ -1,0 +1,6 @@
+{
+  "name": "Mausam — Personalized Weather Intelligence",
+  "description": "Smart India Hackathon 2026: Personalized homepage for Mausam mobile application combining official IMD forecasts, verified ground reality citizen reports, and route intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
